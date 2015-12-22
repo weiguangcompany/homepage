@@ -3,9 +3,13 @@ weiguang homepage
 
 # NodeJS 部署方法
 1.安装NodeJS
+
 2.npm install -g express  安装express
+
 3.npm install -g express-generator 4.0后需要安装这个才能CMD中使用express
+
 4.express -t ejs homepage 生成项目信息
+
 5.npm install 安装package.json下的资源
 
 
@@ -16,13 +20,21 @@ weiguang homepage
 # 安装Bower
 1.npm install -g bower
 
+2.bower install 安装JS
+
 
 # 安装Grunt
 1.npm install -g grunt-cli
 
+2.命令行中执行grunt运行服务器
+
 
 # 插件介绍
 ## 一.Grunt
+
 Grunt 是一个基于任务的JavaScript工程命令行构建工具。
+
+
 ## 二.Express
-http://www.expressjs.com.cn/
+
+http://www.expressjs.com.cn/   NodeJS Web框架

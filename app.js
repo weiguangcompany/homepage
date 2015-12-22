@@ -57,6 +57,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
+// ÉèÖÃ·şÎñÆ÷
 server.listen(3000, function () {
   console.log('Express server listening on %d, in %s mode', 3000, 'http://127.0.0.1');
 });
