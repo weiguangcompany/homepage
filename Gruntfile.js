@@ -2,54 +2,34 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        concat: {
+        express: {
             options: {
-                separator: ';'
+                port: process.env.PORT || 3000
             },
-            dist: {
-                src: ['src/**/*.js'],
-                dest: 'dist/<%= pkg.name %>.js'
-            }
-        },
-        uglify: {
-            options: {
-                banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
-            },
-            dist: {
-                files: {
-                    'dist/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
-                }
-            }
-        },
-        qunit: {
-            files: ['test/**/*.html']
-        },
-        jshint: {
-            files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-            options: {
-                //这里是覆盖JSHint默认配置的选项
-                globals: {
-                    jQuery: true,
-                    console: true,
-                    module: true,
-                    document: true
+            dev: {
+                options: {
+                    script: 'app.js',
+                    debug: true
                 }
             }
         },
         watch: {
-            files: ['<%= jshint.files %>'],
-            tasks: ['jshint', 'qunit']
+            options: {
+                livereload: true,
+            },
+            express: {
+                files:  [ 'app.js' ],
+                tasks:  [ 'express:dev' ],
+                options: {
+                    spawn: false
+                }
+            }
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-contrib-qunit');
+
+    grunt.loadNpmTasks('grunt-express-server');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-
-    grunt.registerTask('test', ['jshint', 'qunit']);
-
-    grunt.registerTask('default', ['uglify']);
-
+    //register task
+    grunt.registerTask('default', ['express','watch']);
 };

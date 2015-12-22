@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+var server = require('http').createServer(app);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -56,5 +57,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
+server.listen(3000, function () {
+  console.log('Express server listening on %d, in %s mode', 3000, 'http://127.0.0.1');
+});
 
 module.exports = app;
