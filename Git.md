@@ -2,10 +2,10 @@
 
 ## 下载Git
 http://git-scm.com/download/
+* 1 运行Git Bash使用命令行
+* 2 运行Git GUI桌面版(不推荐使用)
+* 3 GitHub提供的桌面工具
 
-运行Git Bash使用命令行
-
-运行Git GUI桌面版(不推荐使用)
 
 
 ## 创建ssh key
