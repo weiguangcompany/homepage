@@ -62,3 +62,4 @@ http://git-scm.com/download/
 ## Git分支管理策略
 http://www.ruanyifeng.com/blog/2012/07/git.html
 git merge --no-ff develop 使用--no-ff参数后，会执行正常合并，在Master分支上生成一个新节点。
+https://sandofsky.com/blog/git-workflow.html
