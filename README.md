@@ -1,40 +1,46 @@
 # homepage
 weiguang homepage
 
-# NodeJS ²¿Êğ·½·¨
-1.°²×°NodeJS
+# NodeJS éƒ¨ç½²æ–¹æ³•
+1.å®‰è£…NodeJS
 
-2.npm install -g express  °²×°express
+2.npm install -g express  å®‰è£…express
 
-3.npm install -g express-generator 4.0ºóĞèÒª°²×°Õâ¸ö²ÅÄÜCMDÖĞÊ¹ÓÃexpress
+3.npm install -g express-generator 4.0åéœ€è¦å®‰è£…è¿™ä¸ªæ‰èƒ½CMDä¸­ä½¿ç”¨express
 
-4.express -t ejs homepage Éú³ÉÏîÄ¿ĞÅÏ¢
+4.express -t ejs homepage ç”Ÿæˆé¡¹ç›®ä¿¡æ¯
 
-5.npm install °²×°package.jsonÏÂµÄ×ÊÔ´
-
-
-# NodeJSÊ¹ÓÃ
-1.ÔÚÏîÄ¿Ä¿Â¼ÏÂÔËĞĞnpm install ×Ô¶¯°²×°package.jsonÏÂµÄ×ÊÔ´
+5.npm install å®‰è£…package.jsonä¸‹çš„èµ„æº
 
 
-# °²×°Bower
+# NodeJSä½¿ç”¨
+1.åœ¨é¡¹ç›®ç›®å½•ä¸‹è¿è¡Œnpm install è‡ªåŠ¨å®‰è£…package.jsonä¸‹çš„èµ„æº
+
+
+# å®‰è£…Bower
 1.npm install -g bower
 
-2.bower install °²×°JS
+2.bower install å®‰è£…JS
 
 
-# °²×°Grunt
+# å®‰è£…Grunt
 1.npm install -g grunt-cli
 
-2.ÃüÁîĞĞÖĞÖ´ĞĞgruntÔËĞĞ·şÎñÆ÷
+2.å‘½ä»¤è¡Œä¸­æ‰§è¡Œgruntè¿è¡ŒæœåŠ¡å™¨
 
 
-# ²å¼ş½éÉÜ
-## Ò».Grunt
+# æ’ä»¶ä»‹ç»
+## ä¸€.Grunt
 
-Grunt ÊÇÒ»¸ö»ùÓÚÈÎÎñµÄJavaScript¹¤³ÌÃüÁîĞĞ¹¹½¨¹¤¾ß¡£
+Grunt æ˜¯ä¸€ä¸ªåŸºäºä»»åŠ¡çš„JavaScriptå·¥ç¨‹å‘½ä»¤è¡Œæ„å»ºå·¥å…·ã€‚
 
 
-## ¶ş.Express
+## äºŒ.Express
 
-http://www.expressjs.com.cn/   NodeJS Web¿ò¼Ü
+http://www.expressjs.com.cn/   NodeJS Webæ¡†æ¶
+
+
+# è¿è¡Œ
+* 1 Terminalä½¿ç”¨CDåˆ°é¡¹ç›®çš„æ ¹ç›®å½•
+* 2 è¿è¡Œnpm install å®‰è£…å¿…è¦çš„æ’ä»¶
+* 3 è¿è¡Œgruntå¯åŠ¨
