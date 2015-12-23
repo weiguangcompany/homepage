@@ -19,3 +19,13 @@ http://git-scm.com/download/
 ## 克隆项目
 * 1 使用cd命令到要保存项目的文件夹下
 * 2 $ git clone https://github.com/weiguangcompany/homepage.git 把项目拷贝到该目录下
+
+
+
+
+
+
+
+
+
+git merge --no-ff develop 使用--no-ff参数后，会执行正常合并，在Master分支上生成一个新节点。
