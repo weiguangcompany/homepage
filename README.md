@@ -41,7 +41,8 @@ app : html和js存放目录
 * 2 *.jade : Html的页面
 * 3 *.controller.js :　页面的JavaScript,controller
 * 4 *.js : 路由,指定路径跳到哪个html和使用哪个controller
+
 ### server目录-服务器端
-routes.js : 配置RestAPI ,app.use('/api/things', function)
-config : 配置文件目录
-api :　API目录
+routes.js : 配置RestAPI ,app.use('/api/things', function)   
+config : 配置文件目录   
+api :　API目录     
