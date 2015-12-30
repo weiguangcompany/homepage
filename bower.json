@@ -1,47 +1,22 @@
 {
-  "name": "weiguang-home",
-  "version": "0.0.1",
-  "homepage": "https://github.com/weiguangcompany/homepage",
-  "authors": [
-    "shuhao.huang <shuhao.huang@dinglicom.com>"
-  ],
-  "description": "weiguang",
-  "keywords": [
-    "201512221614"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "homepage",
+  "version": "0.0.0",
   "dependencies": {
-    "angular": ">=1.2.*",
-    "angular-bootstrap": "~0.11.0",
-    "angular-cookies": ">=1.2.*",
-    "angular-local-storage": "~0.2.2",
-    "angular-native-datepicker": "angular-native-picker#~1.0.4",
-    "angular-resource": ">=1.2.*",
-    "angular-sanitize": ">=1.2.*",
-    "angular-translate": "~2.8.0",
-    "angular-translate-storage-cookie": "~2.8.0",
-    "angular-ui-router": "~0.2.10",
-    "bootstrap": "~3.1.1",
-    "es5-shim": "~3.0.1",
-    "font-awesome": ">=4.1.0",
-    "jquery": "~1.11.0",
+    "angular": "~1.4.0",
     "json3": "~3.3.1",
+    "es5-shim": "~3.0.1",
+    "bootstrap": "~3.1.1",
+    "angular-resource": "~1.4.0",
+    "angular-cookies": "~1.4.0",
+    "angular-sanitize": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-bootstrap": "~0.13.0",
+    "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
-    "moment": "~2.10.6",
-    "ngDialog": "~0.5.1",
-    "bootstrap-sass": "~3.3.5"
-
+    "angular-socket-io": "~0.7.0",
+    "angular-validation-match": "~1.5.2"
   },
   "devDependencies": {
-    "angular-mocks": ">=1.2.*",
-    "angular-scenario": ">=1.2.*"
-
+    "angular-mocks": "~1.4.0"
   }
 }
