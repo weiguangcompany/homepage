@@ -1,40 +1,48 @@
 # homepage
-weiguang homepage
 
-# NodeJS ²¿Êğ·½·¨
-1.°²×°NodeJS
+This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.1.1.
 
-2.npm install -g express  °²×°express
+## Getting Started
 
-3.npm install -g express-generator 4.0ºóĞèÒª°²×°Õâ¸ö²ÅÄÜCMDÖĞÊ¹ÓÃexpress
+### Prerequisites
 
-4.express -t ejs homepage Éú³ÉÏîÄ¿ĞÅÏ¢
+- [Git](https://git-scm.com/)
+- [Node.js and npm](nodejs.org) Node ^4.2.3, npm ^2.14.7
+- [Bower](bower.io) (`npm install --global bower`)
+- [Grunt](http://gruntjs.com/) (`npm install --global grunt-cli`)
+- [MongoDB](https://www.mongodb.org/) - Keep a running daemon with `mongod`
 
-5.npm install °²×°package.jsonÏÂµÄ×ÊÔ´
+### Developing
 
+1. Run `npm install` to install server dependencies.
 
-# NodeJSÊ¹ÓÃ
-1.ÔÚÏîÄ¿Ä¿Â¼ÏÂÔËĞĞnpm install ×Ô¶¯°²×°package.jsonÏÂµÄ×ÊÔ´
+2. Run `bower install` to install front-end dependencies.
 
+3. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
 
-# °²×°Bower
-1.npm install -g bower
+4. Run `grunt serve` to start the development server. It should automatically open the client in your browser when ready.
 
-2.bower install °²×°JS
+## Build & development
 
+Run `grunt build` for building and `grunt serve` for preview.
 
-# °²×°Grunt
-1.npm install -g grunt-cli
+## Testing
 
-2.ÃüÁîĞĞÖĞÖ´ĞĞgruntÔËĞĞ·şÎñÆ÷
-
-
-# ²å¼ş½éÉÜ
-## Ò».Grunt
-
-Grunt ÊÇÒ»¸ö»ùÓÚÈÎÎñµÄJavaScript¹¤³ÌÃüÁîĞĞ¹¹½¨¹¤¾ß¡£
+Running `npm test` will run the unit tests with karma.
 
 
-## ¶ş.Express
+## ä»£ç æ¡†æ¶
+### clientç›®å½•-å‰ç«¯ç›®å½•
+index.html :ã€€æœ€å¤–å±‚html,éœ€è¦åœ¨è¿™é‡Œæ·»åŠ ç”¨åˆ°çš„JavaScript   
+bower_components : bower installä¸‹è½½çš„JavaScriptå®‰è£…ç›®å½•   
+assets : å›¾ç‰‡ç­‰èµ„æº   
+app : htmlå’Œjså­˜æ”¾ç›®å½•   
+* 1 app.less : é€šè¿‡@import 'admin/admin.less'å¯¼å…¥less
+* 2 *.jade : Htmlçš„é¡µé¢
+* 3 *.controller.js :ã€€é¡µé¢çš„JavaScript,controller
+* 4 *.js : è·¯ç”±,æŒ‡å®šè·¯å¾„è·³åˆ°å“ªä¸ªhtmlå’Œä½¿ç”¨å“ªä¸ªcontroller
 
-http://www.expressjs.com.cn/   NodeJS Web¿ò¼Ü
+### serverç›®å½•-æœåŠ¡å™¨ç«¯
+routes.js : é…ç½®RestAPI ,app.use('/api/things', function)   
+config : é…ç½®æ–‡ä»¶ç›®å½•   
+api :ã€€APIç›®å½•     
